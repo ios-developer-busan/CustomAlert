@@ -1,0 +1,15 @@
+excluded:
+  - Pods
+  - vendor
+
+opt_in_rules:
+  - explicit_self
+
+disabled_rules:
+  - type_name
+  - identifier_name
+  - nesting
+  - cyclomatic_complexity
+  - line_length
+  - function_body_length
+  - force_try
